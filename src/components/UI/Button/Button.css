@@ -1,0 +1,42 @@
+.Button {
+  border: 2px solid #fff;  
+  padding: 10px 35px;
+  cursor: pointer;  
+  border-radius: 8px;
+  transition: all .3s;
+  margin-left: 10px;
+}
+
+.Button:focus {
+  outline: 0;
+}
+
+.Button:disabled {
+  background: #ccc;
+  color: #000;
+  cursor: not-allowed;
+}
+
+.error {
+  background: tomato;
+  color: #fff;
+}
+
+.succes {
+  background: rgb(52, 165, 52);
+  color: #fff;
+}
+
+
+.succes:hover {
+  background:  rgb(43, 138, 43);
+}
+
+.primary {
+  background: rgb(17, 146, 233);
+  color: #fff;
+}
+
+.primary:hover {
+  background: rgb(13, 130, 207);  
+}
